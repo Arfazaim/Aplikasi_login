@@ -1,10 +1,10 @@
 <?php 
    $host = "localhost";
-   $user = "user";
-   $password = "";
+   $user = "root";
+   $pass = "";
    $db = "login";
 
-   $koneksi = mysqli_connect($host, $user, $password, $db);
+   $koneksi = mysqli_connect($host, $user, $pass, $db);
 
    if(!$koneksi) {
       die("Koneksi gagal : ".mysql_connect_error());
