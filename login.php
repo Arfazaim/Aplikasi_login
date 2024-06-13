@@ -6,7 +6,7 @@
 </head>
 <body>
    <div id="wrapper">
-      <form action="proseslogin.php" method="POST">
+      <form action="dashboard/dashboard.php" method="POST">
             <h1>SIMRS</h1>
             <p>Silahkan masukan username dan password anda</p>
          <label>Username</label>
